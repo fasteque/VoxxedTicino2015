@@ -53,24 +53,6 @@ public class MainActivity extends ActionBarActivity {
         });
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_about) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
     private boolean isDeviceRooted() {
         /*
          * Logic to decide whether the device is rooted or not.
