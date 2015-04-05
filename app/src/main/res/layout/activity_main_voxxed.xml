@@ -14,11 +14,15 @@
         android:layout_centerHorizontal="true"
         android:src="@drawable/vdaylogo"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:layout_width="@dimen/btn_fab_size"
+        android:layout_height="@dimen/btn_fab_size"
         android:id="@+id/download_image"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="48dp" />
+        android:layout_marginTop="48dp"
+        android:elevation="@dimen/btn_fab_elevation"
+        android:src="@drawable/ic_cloud_download_white_48dp"
+        android:background="@drawable/btn_fab_default" />
+
 </RelativeLayout>

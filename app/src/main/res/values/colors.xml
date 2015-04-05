@@ -8,4 +8,7 @@
     <color name="secondary_text">#727272</color>
     <color name="icons">#FFFFFF</color>
     <color name="divider">#B6B6B6</color>
+
+    <color name="fab_color_pressed">#FB6D6D</color>
+    <color name="fab_color_shadow">#44000000</color>
 </resources>
